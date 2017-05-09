@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/countries', 'CountryController@index')->name('country.index');
+Route::get('/countries/{id}', 'CountryController@show')->name('country.show');

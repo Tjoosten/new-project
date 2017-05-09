@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20e429fec5df634b1b9fe79dda3b7f10",
-    "content-hash": "cef0bc36c0a28a828b21b7dea1343ce4",
+    "hash": "c5f38b434cea6568c14c000f74371cc0",
+    "content-hash": "b76d45eb97081d4df06f235b5696031e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -235,6 +235,39 @@
                 }
             ],
             "time": "2015-04-20 18:58:01"
+        },
+        {
+            "name": "laracademy/interactive-make",
+            "version": "0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracademy/interactive-make.git",
+                "reference": "8c2ffd526100cd494d7f384ec583eeee9ee42d1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracademy/interactive-make/zipball/8c2ffd526100cd494d7f384ec583eeee9ee42d1a",
+                "reference": "8c2ffd526100cd494d7f384ec583eeee9ee42d1a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laracademy\\Commands\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael McMullen",
+                    "email": "packages@laracademy.co"
+                }
+            ],
+            "description": "Interactive make CLI replacement for Laravel",
+            "time": "2017-05-04 17:51:28"
         },
         {
             "name": "laravel/framework",
@@ -1767,50 +1800,6 @@
                 "dump"
             ],
             "time": "2017-05-01 14:55:58"
-        },
-        {
-            "name": "themsaid/laravel-langman-gui",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/themsaid/laravel-langman-gui.git",
-                "reference": "9edf113020fc812180511e68eaf5b466bd5f9993"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/themsaid/laravel-langman-gui/zipball/9edf113020fc812180511e68eaf5b466bd5f9993",
-                "reference": "9edf113020fc812180511e68eaf5b466bd5f9993",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/translation": "~5.4",
-                "php": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Themsaid\\LangmanGUI\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mohamed Said",
-                    "email": "theMohamedSaid@gmail.com",
-                    "homepage": "https://themsaid.com"
-                }
-            ],
-            "description": "Manage language files with ease.",
-            "homepage": "https://github.com/themsaid/laravel-langman-gui",
-            "keywords": [
-                "laravel",
-                "localization",
-                "multilingual"
-            ],
-            "time": "2017-05-02 08:01:08"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3381,6 +3370,50 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2017-05-01 14:55:58"
+        },
+        {
+            "name": "themsaid/laravel-langman-gui",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themsaid/laravel-langman-gui.git",
+                "reference": "9edf113020fc812180511e68eaf5b466bd5f9993"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themsaid/laravel-langman-gui/zipball/9edf113020fc812180511e68eaf5b466bd5f9993",
+                "reference": "9edf113020fc812180511e68eaf5b466bd5f9993",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/translation": "~5.4",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Themsaid\\LangmanGUI\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Said",
+                    "email": "theMohamedSaid@gmail.com",
+                    "homepage": "https://themsaid.com"
+                }
+            ],
+            "description": "Manage language files with ease.",
+            "homepage": "https://github.com/themsaid/laravel-langman-gui",
+            "keywords": [
+                "laravel",
+                "localization",
+                "multilingual"
+            ],
+            "time": "2017-05-02 08:01:08"
         },
         {
             "name": "webmozart/assert",
