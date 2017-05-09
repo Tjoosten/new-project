@@ -13,7 +13,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <div class="panel-title">
-                            <img style="height: 15px; width:40px;" src="{{ asset('img/flags/' . strtolower($country->country_flag)) }}" alt="{{ $country->country_name }}">{{ $country->country_name }}
+                            <img style="height: 15px; width:40px;" src="{{ asset('img/flags/' . strtolower($country->country_flag)) }}" alt="{{ $country->country_name }}">{{ $country->country_name }} - General information
                         </div>
                     </div>
 
